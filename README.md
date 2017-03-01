@@ -28,7 +28,3 @@
 >当其他js文件发生变化时，自动重新执行node server即重启服务器
 
 ##配置文件可在config.js下修改
-<<<<<<< HEAD
-
-=======
->>>>>>> e93f0dc3db87a8691bcfefaac66591ef9ef2d021
