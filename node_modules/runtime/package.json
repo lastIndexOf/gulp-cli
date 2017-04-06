@@ -1,0 +1,38 @@
+{
+  "name": "runtime",
+  "version": "0.14.1",
+  "homepage": "http://github.com/stringparser/runtime",
+  "description": "a runtime interface",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint lib/*.js *.js",
+    "test": "npm run lint && mocha test/index.js"
+  },
+  "repository": "stringparser/runtime",
+  "keywords": [
+    "reuse",
+    "async",
+    "simple",
+    "streams",
+    "promises",
+    "callbacks",
+    "composition"
+  ],
+  "author": "Javier Carrillo Milla <stringparser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async-done": "^1.2.x",
+    "createClass": "^1.0.x",
+    "lodash.clone": "^3.0.3",
+    "lodash.merge": "^3.3.2",
+    "once": "^1.3.3"
+  },
+  "devDependencies": {
+    "archy": "^1.0.0",
+    "es6-promise": "^3.0.2",
+    "eslint": "^3.3.x",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "through2": "^2.0.0"
+  }
+}

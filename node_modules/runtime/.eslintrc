@@ -1,0 +1,29 @@
+---
+env:
+  node: true
+  mocha: true
+
+rules:
+  strict: [2, global]
+  indent: [2, 2]
+  quotes: [2, single, avoid-escape]
+  eol-last: 2
+  no-undef: 2
+  no-shadow: 2
+  valid-typeof: 2
+  no-dupe-args: 2
+  no-dupe-keys: 2
+  dot-notation: 2
+  dot-location: [2, property]
+  no-unused-vars: [2, args: none]
+  no-func-assign: 2
+  no-unreachable: 2
+  no-multi-spaces: 2
+  keyword-spacing: 2
+  space-infix-ops: 0
+  consistent-return: 0
+  space-before-blocks: 2
+  no-underscore-dangle: 0
+  no-use-before-define: 0
+  no-unused-expressions: 2
+  space-before-function-paren: 2
