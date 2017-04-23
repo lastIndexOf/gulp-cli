@@ -1,14 +1,5 @@
-exports.hmtlEncode = str => {
-  let s = ''
+const send = require('koa-send')
 
-  s = str
-    .replace(/&/g, '&gt;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/\s/g, '&nbsp;')
-    .replace(/\'/g, '&#39;')
-    .replace(/\"/g, '&quot;')
-    .replace(/\n/g, '<br>')
-
-  return s
+module.exports = {
+  send
 }

@@ -1,19 +1,17 @@
-const Koa = require('koa')
-		, send = require('koa-send')
-		, session = require('koa-session2')
-		, renderer = require('koa-views')
-		, bodyParser = require('koa-bodyparser')
-		, Router = require('koa-router')
-		, static = require('koa-static2')
+const
+	Koa = require('koa')
+  session = require('koa-session2'),
+  renderer = require('koa-views'),
+  bodyParser = require('koa-bodyparser'),
+  Router = require('koa-router'),
+  static = require('koa-static2')
 
 const config = require('./config.js').serverConfig
 const app = new Koa()
 
 const router = new Router()
 const render = renderer('./app/view', {
-	map: {
-		html: 'pug'
-	},
+	map: { html: 'pug' },
 	extension: 'pug'
 })
 
